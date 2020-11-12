@@ -5,7 +5,7 @@ var myChart = new Chart(ctx, {
 		labels: ["EX", "A", "B", "C", "D", "P", "F"],
 		datasets: [
 			{
-				label: "# Prvious Year Grade",
+				label: "# Previous Year Grade",
 				data: [2, 4, 17, 7, 4, 3, 0],
 				backgroundColor: [
 					"rgba(255, 99, 132, 0.2)",
