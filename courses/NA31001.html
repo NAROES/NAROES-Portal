@@ -4,7 +4,7 @@
 		<meta charset="utf-8" />
 		<meta content="width=device-width, initial-scale=1.0" name="viewport" />
 
-		<title>Portal - OENA IITKGP</title>
+		<title>NA31001:Elements Of Ocean Engineering</title>
 		<meta content="" name="description" />
 		<meta content="" name="keywords" />
 
@@ -15,11 +15,15 @@
 			rel="apple-touch-icon"
 		/>
 
+		<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
 		<!-- Google Fonts -->
 		<link
 			href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Roboto:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
 			rel="stylesheet"
 		/>
+
+
 
 		<!-- Vendor CSS Files -->
 		<link
@@ -58,7 +62,7 @@
 		<header id="header" class="fixed-top">
 			<div class="container d-flex align-items-center">
 				<h1 class="logo mr-auto">
-					<a href="index.html">NAROES<span>.</span></a>
+					<a href="../index.html">NAROES<span>.</span></a>
 				</h1>
 				<!-- Uncomment below if you prefer to use an image logo -->
 				<!-- <a href="index.html" class="logo mr-auto"><img src="assets/img/logo.png" alt=""></a>-->
@@ -68,7 +72,7 @@
 						<li class="active"><a href="../index.html">Home</a></li>
 						<li><a href="../index.html">About</a></li>
 						<li><a href="../index.html">Study Material</a></li>
-						<li><a href="courses.html">Courses</a></li>
+						<!-- <li><a href="courses.html">Courses</a></li> -->
 						<!-- <li><a href="#portfolio">Portfolio</a></li> -->
 						<li><a href="../index.html">Team</a></li>
 
@@ -90,15 +94,71 @@
 				<p class="syllabus_content">Brief introduction to ocean environment and ocean floor characteristics, waves, tides, currents, seawater properties; statistical analysis â distributions, multiple regression, correlation, auto-covariance, cross-spectra, practical applications in ocean engineering; Introduction to offshore structures-gravity platforms, jacket platforms, tension leg platforms, marine risers, submersibles, offshore pipelines, Instrumentation for ocean applications: pressure sensors, current meters, CTD, depth sounder, buoy systems etc. Fundamentals of mooring system and mooring cables. Submarine pipelines: interaction of pipelines with seabed: free span, scouring and burial of seabed pipelines, forces on sea-bed pipelines, current and wave-induced vibrations of pipelines, lifting-off of pipelines, introduction to dredging and reclamation, ocean energy and fundamental principles of energy extractions from sea waves.</p>
 				<hr>
 			</p>
+			<br>
+			<hr />
+			<p >
+				<h3 class="syllabus">Study Material</h3>
+				<hr>
+				<p class="syllabus_content">To relieve you of the pain of searching for reliable study material, our team has compiled various resources for this course. In order to access handwritten notes, past question papers, assignments, tutorial sheets, their solutions and many more
+					resources, click the button below!</p>
+				<center>
+					<a href="#" target="_blank"><button type="button" name="button" class="btn btn-primary btn-lg"><b>Click Me!</b></button></a>
+				</center>
+				<hr>
+			</p>
 		</section>
+
 
 
 		<section class="chart container">
 			<h3 class="chart_heading">Previous Year Grade Distribution</h3>
-			<canvas id="myChart" ></canvas>
+			<canvas id="myChart" >
+			<script>
+			var ctx = document.getElementById("myChart").getContext("2d");
+			var myChart = new Chart(ctx, {
+				type: "bar",
+				data: {
+					labels: ["EX", "A", "B", "C", "D", "P", "F"],
+					datasets: [
+						{
+							label: "# Previous Year Grade",
+							data: [2, 4, 17, 7, 4, 3, 0],
+							backgroundColor: [
+								"rgba(255, 99, 132, 0.2)",
+								"rgba(54, 162, 235, 0.2)",
+								"rgba(255, 206, 86, 0.2)",
+								"rgba(75, 192, 192, 0.2)",
+								"rgba(153, 102, 255, 0.2)",
+								"rgba(255, 159, 64, 0.2)",
+							],
+							borderColor: [
+								"rgba(255, 99, 132, 1)",
+								"rgba(54, 162, 235, 1)",
+								"rgba(255, 206, 86, 1)",
+								"rgba(75, 192, 192, 1)",
+								"rgba(153, 102, 255, 1)",
+								"rgba(255, 159, 64, 1)",
+							],
+							borderWidth: 1,
+						},
+					],
+				},
+				options: {
+					scales: {
+						yAxes: [
+							{
+								ticks: {
+									beginAtZero: true,
+								},
+							},
+						],
+					},
+				},
+			});
+			</script></canvas>
 		</section>
 		<section class="container">
-			<h3 class="concept">Concepts</h3>
+			<h3 class="concept">Fundae</h3>
 			<hr>
 			<p class="concept_content">This is a really theoretical subject which requires loads of mugging powers. So if you are in your 5th sem, buckle up, because a: you will not go the classes for this subject, and b: because of a, you will have to study from the notes of that one guy in your batch who will religiously attend all the classes but his notes will be on rather unorganized, chaotic, and random side of the notes' quality spectrum. GOOD LUCK!!</p>
 			<hr>
@@ -113,7 +173,7 @@
 					<th scope="col">8.00-8.55AM</th>
 					<th scope="col">9.00-9.55AM</th>
 					<th scope="col">10.00-10.55AM</th>
-					<th scope="col">10.00-10.55AM</th>
+					<th scope="col">11.00-11.55AM</th>
 					<th scope="col">12.00-12.55PM</th>
 					<th scope="col">2.00-2.55PM</th>
 					<th scope="col">3.00-3.55PM</th>
@@ -162,7 +222,7 @@
 					<th scope="row">Thursday</th>
 					<td>--</td>
 					<td>--</td>
-					<td>--</td>
+					<td>In Dept</td>
 					<td>--</td>
 					<td>--</td>
 					<td>--</td>
@@ -307,6 +367,5 @@
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
 		<!-- Template Main JS File -->
 		<script src="../assets/js/main.js"></script>
-		<script src="coures.js"></script>
 	</body>
 </html>
