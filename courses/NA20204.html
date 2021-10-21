@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+
+  <title>NA20204: Ship Construction and Production</title>
+  <meta content="" name="description" />
+  <meta content="" name="keywords" />
+
+  <!-- Favicons -->
+  <link href="../assets/img/logo.jpg" rel="icon" />
+  <link href="../assets/img/apple-touch-icon.png" rel="apple-touch-icon" />
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Roboto:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet" />
+
+
+
+  <!-- Vendor CSS Files -->
+  <link href="../assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="../assets/vendor/icofont/icofont.min.css" rel="stylesheet" />
+  <link href="../assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet" />
+  <link href="../assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet" />
+  <link href="../assets/vendor/venobox/venobox.css" rel="stylesheet" />
+  <link href="../assets/vendor/aos/aos.css" rel="stylesheet" />
+
+  <!-- Template Main CSS File -->
+  <link href="../assets/css/style.css" rel="stylesheet" />
+
+  <!--Boxicons stylesheet -->
+  <link href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css" rel="stylesheet" />
+
+  <link href="courses_style.css" rel="stylesheet" />
+
+</head>
+
+<body>
+  <header id="header" class="fixed-top">
+    <div class="container d-flex align-items-center">
+      <h1 class="logo mr-auto">
+        <a href="../index.html">NAROES<span>.</span></a>
+      </h1>
+      <!-- Uncomment below if you prefer to use an image logo -->
+      <!-- <a href="index.html" class="logo mr-auto"><img src="assets/img/logo.png" alt=""></a>-->
+
+      <nav class="nav-menu d-none d-lg-block">
+        <ul>
+          <li class="active"><a href="../index.html">Home</a></li>
+          <li><a href="../index.html">About</a></li>
+          <li><a href="../index.html">Study Material</a></li>
+          <!-- <li><a href="courses.html">Courses</a></li> -->
+          <!-- <li><a href="#portfolio">Portfolio</a></li> -->
+          <li><a href="../index.html">Team</a></li>
+
+          <li><a href="../index.html">Contact</a></li>
+        </ul>
+      </nav>
+      <!-- .nav-menu -->
+    </div>
+  </header>
+  <!--Courses-->
+  <section class="container">
+    <h2 class="subject_heading">
+      NA20204: Ship Construction and Production
+    </h2>
+    <hr />
+    <p>
+      <h3 class="syllabus">Syllabus</h3>
+      <hr>
+      <p class="syllabus_content">
+        Prerequisite: Mechanics, Introduction of theory of elasticity- Analysis of
+        Stress and Strain, Stress equation of equilibrium, Compatibility equations,
+        Stress-Strain Relations, Solution of elasticity equations-stress function
+        approach. Theories of failure- Yield criteria. Energy methods- Generalized
+        forces and displacements, Reciprocal Theorem, Maxwell-Betti-Raleigh reciprocal
+        theorem, Castiglianos theorems, Theorem of virtual work. Bending of BeamsStraight and asymmetrical bending, Shear center, bending of curved beams,
+        Deflection of thick curved beams. Axisymmetric problems- Thick walled
+        cylinders subjected to internal and external pressures-Lames equation, Stresses
+        in composite tubes-Shrink fits, Rotating discs with uniform and variable
+        thickness, Rotating shafts and cylinders. Columns and struts- Eulers Buckling
+        load, Different end conditions, Beam columns, Energy methods
+      </p>
+      <br>
+      <hr />
+      <h3 class="syllabus">Study Material</h3>
+      <hr>
+      <p class="syllabus_content">To relieve you of the pain of searching for reliable study material, our team has compiled various resources for this course. In order to access handwritten notes, past question papers, assignments, tutorial
+        sheets, their solutions and many more
+        resources, click the button below!</p>
+      <center>
+        <a href="https://drive.google.com/drive/folders/1lre-iiotaunKcBq9k3nyJgSohTt1ZHrL?usp=sharing" target="_blank"><button type="button" name="button" class="btn btn-primary btn-lg"><b>Click Me!</b></button></a>
+      </center>
+      <hr>
+  </section>
+
+
+  <section class="chart container">
+    <h3 class="chart_heading">Previous Year Grade Distribution</h3>
+    <canvas id="myChart">
+      <script>
+        var ctx = document.getElementById("myChart").getContext("2d");
+        var myChart = new Chart(ctx, {
+          type: "bar",
+          data: {
+            labels: ["EX", "A", "B", "C", "D", "P", "F"],
+            datasets: [{
+              label: "# Previous Year Grade",
+              data: [13, 9, 8, 10, 7, 3],
+              backgroundColor: [
+                "rgba(255, 99, 132, 0.2)",
+                "rgba(54, 162, 235, 0.2)",
+                "rgba(255, 206, 86, 0.2)",
+                "rgba(75, 192, 192, 0.2)",
+                "rgba(153, 102, 255, 0.2)",
+                "rgba(255, 159, 64, 0.2)",
+              ],
+              borderColor: [
+                "rgba(255, 99, 132, 1)",
+                "rgba(54, 162, 235, 1)",
+                "rgba(255, 206, 86, 1)",
+                "rgba(75, 192, 192, 1)",
+                "rgba(153, 102, 255, 1)",
+                "rgba(255, 159, 64, 1)",
+              ],
+              borderWidth: 1,
+            }, ],
+          },
+          options: {
+            scales: {
+              yAxes: [{
+                ticks: {
+                  beginAtZero: true,
+                },
+              }, ],
+            },
+          },
+        });
+      </script>
+    </canvas>
+  </section>
+  <section class="container">
+    <h3 class="concept">Fundae</h3>
+    <hr>
+    <p class="concept_content">
+
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      
+    </p>
+    <hr>
+  </section>
+  <section class="container">
+    <h3 class="timeTable">Time Table</h3>
+    <div class="table-responsive">
+      <table class="table table-hover table-sm">
+        <thead>
+          <tr>
+            <th scope="col">Day</th>
+            <th scope="col">8.00-8.55AM</th>
+            <th scope="col">9.00-9.55AM</th>
+            <th scope="col">10.00-10.55AM</th>
+            <th scope="col">11.00-11.55AM</th>
+            <th scope="col">12.00-12.55PM</th>
+            <th scope="col">2.00-2.55PM</th>
+            <th scope="col">3.00-3.55PM</th>
+            <th scope="col">4.00-4.55PM</th>
+            <th scope="col">5.00-5.55PM</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">Monday</th>
+            <td>--</td>
+            <td>--</td>
+            <td>NC142</td>
+            <td>--</td>
+            <td>--</td>
+            <td>--</td>
+            <td>--</td>
+            <td>--</td>
+            <td>--</td>
+          </tr>
+          <tr>
+            <th scope="row">Tuesday</th>
+            <td>--</td>
+            <td>--</td>
+            <td>--</td>
+            <td>--</td>
+            <td>--</td>
+            <td>--</td>
+            <td>--</td>
+            <td>--</td>
+            <td>--</td>
+          </tr>
+          <tr>
+            <th scope="row">Wednesday</th>
+            <td>NC142</td>
+            <td>NC142</td>
+            <td>--</td>
+            <td>--</td>
+            <td>--</td>
+            <td>--</td>
+            <td>--</td>
+            <td>--</td>
+            <td>--</td>
+          </tr>
+          <tr>
+            <th scope="row">Thursday</th>
+            <td>--</td>
+            <td>--</td>
+            <td>NC142</td>
+            <td>--</td>
+            <td>--</td>
+            <td>--</td>
+            <td>--</td>
+            <td>--</td>
+            <td>--</td>
+          </tr>
+          <tr>
+            <th scope="row">Friday</th>
+            <td>--</td>
+            <td>--</td>
+            <td>--</td>
+            <td>--</td>
+            <td>--</td>
+            <td>--</td>
+            <td>--</td>
+            <td>--</td>
+            <td>--</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+  <hr>
+  <!--Footer-->
+  <footer id="footer" style="background-color: #f6f9fe">
+    <div class="footer-top" style="background-color: #fff">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3 col-md-6 footer-contact">
+            <h3>NAROES<span>.</span></h3>
+            <p>
+              Indian Institute Of Technology Kharagpur <br />
+              Kharagpur, West-Bengal 721302<br />
+              India <br /><br />
+              <strong>Phone:</strong> +1 5589 55488 55<br />
+              <strong>Email:</strong> naroes.iitkgp.2021@gmail.com<br />
+            </p>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+              <li>
+                <i class="bx bx-chevron-right"></i>
+                <a href="#">Home</a>
+              </li>
+              <li>
+                <i class="bx bx-chevron-right"></i>
+                <a href="#about">About us</a>
+              </li>
+              <li>
+                <i class="bx bx-chevron-right"></i>
+                <a href="../index.html#about">Study Material</a>
+              </li>
+              <!-- <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
+					  <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li> -->
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Study Material</h4>
+            <ul>
+              <li>
+                <i class="bx bx-chevron-right"></i>
+                <a href="#services">First Year</a>
+              </li>
+              <li>
+                <i class="bx bx-chevron-right"></i>
+                <a href="#services">Second year</a>
+              </li>
+              <li>
+                <i class="bx bx-chevron-right"></i>
+                <a href="#services">Third Year</a>
+              </li>
+              <li>
+                <i class="bx bx-chevron-right"></i>
+                <a href="#services">Fourth Year</a>
+              </li>
+              <li>
+                <i class="bx bx-chevron-right"></i>
+                <a href="#services">Final Year (Dual Degree)</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Our Social Networks</h4>
+            <p>Stay Connected with us!</p>
+            <div class="social-links mt-3">
+              <!-- <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a> -->
+              <a href="https://www.facebook.com/oenanaroes/?epa=SEARCH_BOX" class="facebook"><i class="bx bxl-facebook"></i></a>
+              <!-- <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a> -->
+              <!-- <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a> -->
+              <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+              <a href="https://github.com/NAROES" class="github"><i class="bx bxl-github"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container py-4">
+      <div class="copyright">
+        &copy; Copyright <strong><span>NAROES</span></strong> All
+        Rights Reserved
+      </div>
+      <div class="credits">
+        <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you purchased the pro version. -->
+        <!-- Licensing information: https://bootstrapmade.com/license/ -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/bizland-bootstrap-business-template/ -->
+        Designed with ❤ by Web-Team @ NAROES
+      </div>
+    </div>
+  </footer>
+  <!-- End Footer -->
+
+  <div id="preloader"></div>
+  <a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>
+
+  <script src="../assets/vendor/jquery/jquery.min.js"></script>
+  <script src="./assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="../assets/vendor/jquery.easing/jquery.easing.min.js"></script>
+  <script src="../assets/vendor/php-email-form/validate.js"></script>
+  <script src="../assets/vendor/waypoints/jquery.waypoints.min.js"></script>
+  <script src="../assets/vendor/counterup/counterup.min.js"></script>
+  <script src="../assets/vendor/owl.carousel/owl.carousel.min.js"></script>
+  <script src="../assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="../assets/vendor/venobox/venobox.min.js"></script>
+  <script src="../assets/vendor/aos/aos.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
+  <!-- Template Main JS File -->
+  <script src="../assets/js/main.js"></script>
+</body>
+
+</html>
