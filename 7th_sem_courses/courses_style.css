@@ -1,0 +1,21 @@
+.subject_heading {
+	margin-top: 6vh;
+	text-align: center;
+}
+.syllabus,
+.chart_heading,
+.concept,
+.timeTable {
+	text-align: center;
+}
+.syllabus_content,
+.concept_content {
+	width: 80%;
+	margin-left: 10%;
+	text-align: justify;
+	text-justify: inter-word;
+}
+.chart {
+	max-width: 1000px;
+	margin: 0 auto;
+}
