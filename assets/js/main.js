@@ -214,3 +214,9 @@
   });
 
 })(jQuery);
+// Copyright dynamic date
+$(document).ready(function() {
+  var date = new Date();
+  var year = date.getFullYear();
+  $('#copyright-year').text(year);
+});
