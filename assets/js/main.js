@@ -220,3 +220,11 @@ $(document).ready(function() {
   var year = date.getFullYear();
   $('#copyright-year').text(year);
 });
+elementArray=document.getElementsByClassName("concept_content")
+for(let i=0;i<elementArray.length;i++)
+{
+  if (elementArray[i].innerText.startsWith("Lorem") || elementArray[i].innerText.startsWith("lorem") || elementArray[i].innerText==="")
+  {
+    elementArray[i].innerText="Just go to all the classes and pay attention to what the prof teaches, that's it."
+  }
+}
