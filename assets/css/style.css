@@ -440,8 +440,9 @@ h1, h2, h3, h4, h5, h6 {
 --------------------------------------------------------------*/
 #hero {
   width: 100%;
-  height: 75vh;
-  background: url("../img/hero-bg.jpg") top left;
+  /* max-width: 100%; */
+  height: 100vh;
+  /* background: url("../img/hero-2.jpeg") top left; */
   background-size: cover;
   position: relative;
 }
@@ -1802,5 +1803,42 @@ section {
     float: none;
     text-align: center;
     padding: 2px 0;
+  }
+}
+.hero-1{
+  background-image: url(../img/desktop-1.webp);
+}
+.hero-2{
+  background-image: url(../img/desktop-2.jpg);
+}
+.hero-3{
+  background-image: url(../img/desktop-3.jpg);
+}
+.hero-4{
+  background-image: url(../img/desktop-4.jpg);
+}
+.hero-5{
+  background-image: url(../img/desktop-5.jpg);
+}
+.hero-0{
+  background-image: url(../img/descktop-0.jpeg);
+}
+@media(max-width : 757px)
+{
+  .hero-1{
+    background-image: url(../img/mobile-1.jpg);
+  }
+  .hero-2{
+
+    background-image: url(../img/mobile-2.jpg);
+  }
+  .hero-3{
+    background-image: url(../img/mobile-3.jpg);
+  }
+  .hero-4{
+    background-image: url(../img/mobile-4.jpg);
+  }
+  .hero-5{
+    background-image: url(../img/mobile-5.jpg);
   }
 }
