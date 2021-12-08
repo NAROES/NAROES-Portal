@@ -220,11 +220,21 @@ $(document).ready(function() {
   var year = date.getFullYear();
   $('#copyright-year').text(year);
 });
-elementArray=document.getElementsByClassName("concept_content")
+var elementArray=document.getElementsByClassName("concept_content")
 for(let i=0;i<elementArray.length;i++)
 {
   if (elementArray[i].innerText.startsWith("Lorem") || elementArray[i].innerText.startsWith("lorem") || elementArray[i].innerText==="")
   {
     elementArray[i].innerText="Just go to all the classes and pay attention to what the prof teaches, that's it."
   }
-}
+} 
+// Dynamic email
+var date=new Date()
+var year=date.getFullYear()+1
+var email=`naroes.iitkgp.${year}@gmail.com`
+document.getElementById("email").innerText=email
+var before_email_element=document.getElementsByClassName("footer-contact")[0].children[1].children[3]
+var emailNode=before_email_element.nextSibling
+emailNode.parentNode.removeChild(emailNode)
+before_email_element.after(" "+email)
+
